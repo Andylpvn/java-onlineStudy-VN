@@ -1,5 +1,5 @@
 
-## Lesson3-Git
+# Lesson3-Git
 
 Format code : Ctrl + Alt + L 
 
@@ -19,7 +19,7 @@ git --help                                  //show help
 
 ---
 
-## Lesson4- Loop 
+# Lesson4- Loop 
 if else                                     //co the thay the cho switch case  
 
 switch case                                 // tuong duong if else, nhung nho hon
