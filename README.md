@@ -12,7 +12,7 @@ git clone https://...                       //cope a repo from git to computer
 
 git --help                                  //show help
 
-------------------------------------Lesson4- Vòng lặp ---------------------------------------
+------------------------------------Lesson4- Loop ---------------------------------------
 if else                                     // co the thay the cho switch case
 switch case                                 // tuong duong if else, nhung nho hon
 for                                         // co the thay the cho while, co so luong vong lap roi
@@ -22,3 +22,6 @@ do while                                    // giong while, nhung thuc thi 1 cau
 break;                                      // ngat vong lap "cha" cua no, khong co tac dung voi vong lap ben ngoai, hay su dung voi if
 return;                                     // thoat luon ra khoi ham Main
 continue;																		//bo qua tat ca lenh phia duoi, van đủ so luong vong lap
+
+long endTime = System.nanoTime();               //bat dau do
+long endTime = System.currentTimeMillis();      //ket thuc do
