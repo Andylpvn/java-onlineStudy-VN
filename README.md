@@ -5,7 +5,7 @@ Format code : Ctrl + Alt + L
 
 How to Format in Readme : search google Markdown editor
 
-git add .                                   //add all files
+|git add .                                   |add all files|
 
 git add src/                                //add files in src folder
 
