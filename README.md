@@ -1,5 +1,5 @@
 # java-onlineStudy-VN
-------------------------------------Lesson3-Git---------------------------------------
+<h1>Lesson3-Git</h1>
 Format code : Ctrl + Alt + L
 How to Format in Readme : search google Markdown editor
 
