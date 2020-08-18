@@ -12,11 +12,11 @@ public class Activity21 {
         System.out.println("Nhap so b:");
         int b = tinhtoan.nextInt();
 
-        int cong = a+b;
-        int tru = a-b;
-        int nhan = a*b;
-        int chia = a/b;
-        int sodu = a%b;
+        int cong = a + b;
+        int tru = a - b;
+        int nhan = a * b;
+        int chia = a / b;
+        int sodu = a % b;
 
         System.out.println("a+b=" + a + "+" + b + "=" + cong);
         System.out.println("a-b=" + a + "-" + b + "=" + tru);
