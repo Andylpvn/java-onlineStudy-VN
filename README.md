@@ -17,7 +17,7 @@
 
 |-|-
 |--|--
-|if else |                                  co the thay the cho switch case   
+|if else | co the thay the cho switch case   
 |switch case | tuong duong if else, nhung nho hon
 |for | co the thay the cho while, co so luong vong lap roi
 |while |  giong for nhung chua chac so luong vong lap, luu y dieu kien update khi code de khong chay mai mai
@@ -29,3 +29,16 @@
 |long endTime = System.currentTimeMillis();| ket thuc do
 
 ---
+
+# Lesson5- Array 
+
+|-|-
+|--|--
+|Array| [index] luon chay tu 0 den (n-1)
+|tinh lenght cua array| int size = arrayName.length;
+| for (int name : arrayName) | duyet mang tu dau den cuoi
+|for (int i = 0; i <arrayName.length; i++)| duyet mang theo dieu kien cu the
+
+# Lesson6 - OOP
+|Default | khong khai bao gi
+|tu tao ham Getter, Setter, Constructor | chuc nang Generate (Ctrl N) 
