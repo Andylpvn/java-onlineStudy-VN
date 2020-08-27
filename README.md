@@ -3,6 +3,7 @@
 |-|-
 |--|--
 |Format code|Ctrl + Alt + L
+|Ato complete code| Shift + Ctrl+ enter
 |How to Format in Readme | search google Markdown editor
 |git add .| add all files
 |git add src/ | add files in src folder
@@ -39,6 +40,9 @@
 | for (int name : arrayName) | duyet mang tu dau den cuoi
 |for (int i = 0; i <arrayName.length; i++)| duyet mang theo dieu kien cu the
 
-# Lesson6 - OOP
+# Lesson6 - OOP - Package
 |Default | khong khai bao gi
 |tu tao ham Getter, Setter, Constructor | chuc nang Generate (Ctrl N) 
+---
+
+# Lesson 8 - OOP - Inheritance - Polymorphism
