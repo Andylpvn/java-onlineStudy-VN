@@ -1,4 +1,4 @@
-package vn.plusplus.javacore.lesson6;
+package vn.plusplus.javacore.lesson61;
 
 import java.util.Scanner;
 

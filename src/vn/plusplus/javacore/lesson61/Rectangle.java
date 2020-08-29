@@ -1,8 +1,5 @@
-package vn.plusplus.javacore.lesson6;
+package vn.plusplus.javacore.lesson61;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
-
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Rectangle {
