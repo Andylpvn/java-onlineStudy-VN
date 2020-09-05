@@ -1,29 +1,29 @@
 package vn.plusplus.javacore.lesson63;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+import java.util.ArrayList;
 
-import java.util.SortedMap;
+public class Store {
+    private String name;//tên cửa hàng
+    private String address;//Địa chỉ cửa hàng
+    private int n;//tổng số điện thoại có trong cửa hàng
+    private ArrayList<SmartPhone> phones = new ArrayList<>();//Danh sách các điện thoại có trong cửa hàng
 
-public class Store<totalSold> {
+    public Store() {
+    }
 
-    private String storeName;
-    private String address;
-    private int n;
-    private SmartPhone[] phones;
-
-    public Store(String storeName, String address, int n, SmartPhone[] phones) {
-        this.storeName = storeName;
+    public Store(String name, String address, int n, ArrayList<SmartPhone> phones) {
+        this.name = name;
         this.address = address;
         this.n = n;
         this.phones = phones;
     }
 
-    public String getStoreName() {
-        return storeName;
+    public String getName() {
+        return name;
     }
 
-    public void setStoreName(String storeName) {
-        this.storeName = storeName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getAddress() {
@@ -42,29 +42,29 @@ public class Store<totalSold> {
         this.n = n;
     }
 
-    public SmartPhone[] getPhones() {
+    public ArrayList<SmartPhone> getPhones() {
         return phones;
     }
 
-    public void setPhones(SmartPhone[] phones) {
+    public void setPhones(ArrayList<SmartPhone> phones) {
         this.phones = phones;
     }
 
-public int totalSold () {
-    int count = 0;
-    for (SmartPhone sm : phones) {
-        if (sm.getTotalSold() <= n) {
-            count += count;
+    public int totalPhones() {//tổng số điện thoại bán được của của hàng
+        int totalPhones = 0;
+        for (SmartPhone x : phones) {
+            totalPhones = totalPhones + x.getTotalSold();
         }
-    }
-    return count;
-}
-
-    SmartPhone sm;
-    {
-        sm = new SmartPhone();
-        System.out.println("Tong doanh thu la: "+ sm.totalRevenue());
+        return totalPhones;
     }
 
+    public double totalRevenue() {// tổng doanh thu của  của hàng
+        double totalRevenue = 0;
+        for (SmartPhone x : phones) {
+            totalRevenue = totalRevenue + x.getPrice() * x.getTotalSold();
+        }
+        return totalRevenue;
+    }
 
 }
+
